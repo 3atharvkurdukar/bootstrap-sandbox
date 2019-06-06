@@ -15,7 +15,7 @@
     <header>
         <h1 class="display-3 text-center my-4">Grid Alignment</h1>
         <div class="container">
-            <div class="row">
+            <div class="row my-3">
                 <div class="col-md-3">
                     <div class="dropdown">
                         <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
@@ -89,7 +89,7 @@
 
         <!-- VERTICAL ALIGNMENT -->
         <div class="container">
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row my-3 align-items-start" style="height:200px;border:1px #333 solid">
                 <div class="col">
                     Top Aligned Text
                 </div>
@@ -100,7 +100,7 @@
                     Top Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row my-3 align-items-center" style="height:200px;border:1px #333 solid">
                 <div class="col">
                     Middle Aligned Text
                 </div>
@@ -111,7 +111,7 @@
                     Middle Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row my-3 align-items-end" style="height:200px;border:1px #333 solid">
                 <div class="col">
                     Bottom Aligned Text
                 </div>
@@ -129,14 +129,14 @@
 
         <!-- VERTICAL ALIGN INDIVIDUAL COLS -->
         <div class="container">
-            <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col">
+            <div class="row my-3" style="height:200px;border:1px #333 solid">
+                <div class="col align-self-start">
                     Top Aligned
                 </div>
-                <div class="col">
+                <div class="col align-self-center">
                     Middle Aligned
                 </div>
-                <div class="col">
+                <div class="col align-self-end">
                     Bottom Aligned
                 </div>
             </div>
@@ -147,43 +147,43 @@
 
         <!-- HORIZONTAL ALIGNED COLS -->
         <div class="container">
-            <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col-4">
+            <div class="row my-3 justify-content-start" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-info">
                     Left Aligned Text
                 </div>
-                <div class="col-4">
+                <div class="col-4 bg-info">
                     Left Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col-4">
+            <div class="row my-3 justify-content-center" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-info">
                     Center Aligned Text
                 </div>
-                <div class="col-4">
+                <div class="col-4 bg-info">
                     Center Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col-4">
+            <div class="row my-3 justify-content-end" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-info">
                     Right Aligned Text
                 </div>
-                <div class="col-4">
+                <div class="col-4 bg-info">
                     Right Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col-4">
+            <div class="row my-3 justify-content-around" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-info">
                     Content Around
                 </div>
-                <div class="col-4">
+                <div class="col-4 bg-info">
                     Content Around
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col-4">
+            <div class="row my-3 justify-content-between" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-info">
                     Content Between
                 </div>
-                <div class="col-4">
+                <div class="col-4 bg-info">
                     Content Between
                 </div>
             </div>
@@ -193,7 +193,7 @@
         <br>
 
         <!-- COLUMN WRAPPING & NO GUTTERS-->
-        <div class="row">
+        <div class="row my-3 no-gutters">
             <div class="col-9">
                 <div class="card">
                     <div class="card-block">
